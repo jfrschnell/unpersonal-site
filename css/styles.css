@@ -1,0 +1,160 @@
+body {
+  margin: 0;
+  text-align: center; /* will center everything that doens't have the width set */
+  font-family: "Merriweather", serif;
+  color: #40514e;
+}
+
+h1 {
+  margin: 50px auto 0 auto; /*If it has a width set then */
+  /*margin: 0 auto 0 auto 0; /*If is a block element and it has a width set, then you're to have to center it using the auto value in the margin*/
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+  padding: 10px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+p {
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #cae0f5;
+  position: relative;
+  padding-top: 50px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+hr {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #eaf6f6;
+  border-width: 15px;
+  width: 5%;
+}
+
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px; /*separate the 3 anchor tags*/
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto; /*will center it on the div*/
+  text-align: left;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto; /*this to make center the text*/
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chilli-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.btn {
+  background: #66bfbf;
+  background-image: -webkit-linear-gradient(top, #66bfbf, #66bfbf);
+  background-image: -moz-linear-gradient(top, #66bfbf, #66bfbf);
+  background-image: -ms-linear-gradient(top, #66bfbf, #66bfbf);
+  background-image: -o-linear-gradient(top, #66bfbf, #66bfbf);
+  background-image: -webkit-gradient(to bottom, #66bfbf, #66bfbf);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 12px;
+  border: solid #66bfbf 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn:hover {
+  border: solid #66bfbf 1px;
+  background: #87cccc;
+  background-image: -webkit-linear-gradient(top, #9ce2e2, #66bfbf);
+  background-image: -moz-linear-gradient(top, #97d8d8, #66bfbf);
+  background-image: -ms-linear-gradient(top, #95d4d4 #66bfbf);
+  background-image: -o-linear-gradient(top, #9cdddd, #66bfbf);
+  background-image: -webkit-gradient(to bottom, #9edada, #66bfbf);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.footer-link {
+  color: #11999e;
+}
+
+.contact-me {
+  margin-bottom: 50px;
+}
+
+.bottom-container {
+  padding: 50px 0 20px;
+  background-color: #66bfbf;
+}
